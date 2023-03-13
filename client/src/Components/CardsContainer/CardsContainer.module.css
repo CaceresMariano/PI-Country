@@ -1,0 +1,41 @@
+.container{
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;  
+    align-items: center; 
+    margin-left: 15px;
+    margin-top: 35px;
+    
+}
+.pageTitle{
+        color: rgb(254, 232, 190);
+        font-family: 'Berkshire Swash', cursive;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        
+}
+.css {
+        min-width: 120px;
+        height: 45px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: center;
+        margin-left: 70px;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #57cc99;
+        background: #338d66;        
+        font-size: 19px;
+}
+.css:hover {
+        background: #fff;
+        color: #57cc99;
+        
+} 

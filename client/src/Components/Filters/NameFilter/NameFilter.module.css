@@ -1,0 +1,33 @@
+.input{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 400px solid blue ;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.btn{
+    width: 100px;
+    margin-top: 8px;
+    border-radius: 10% solid;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+
+}
+.flexBtn{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+ 
+}
+.btn:hover {
+    background-color: #a29797;
+    font-style: italic;   
+    
+}

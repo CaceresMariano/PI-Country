@@ -1,0 +1,21 @@
+.home{
+    
+    background-image: url("../Document/imagen1.jpg");     
+    background-size: 100% 100%;
+    min-height: 100vh; 
+       
+}
+.titulo{
+    vertical-align: text-top;
+    color: blanchedalmond;
+    font-size: 85px;
+    font-style: italic; 
+    border-left: 3px solid rgba(0,0,0,0.25);
+    border-top-left-radius: 10px solid black;
+    padding: 0.5rem;
+    margin-left: 0.40rem;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 0.09em;
+    align-items: flex-start;    
+        
+}

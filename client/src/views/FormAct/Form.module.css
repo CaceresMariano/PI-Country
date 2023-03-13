@@ -1,0 +1,86 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerInput{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.container{
+    background-color: cadetblue;
+    text-align: center;
+    height: 100vh;
+
+}
+.form{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: gray;
+    width: 600px;
+    min-height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 30px;
+}
+.titulo{
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 0.15em;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 60px;
+}
+.input{
+    width: 580px;
+    height: 50px;
+    font-size: 30px;  
+    text-align: center;  
+}
+.title{
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 0.18em;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 28px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.form span{
+    font-size: 18px;
+    color: rgb(255, 255, 0);
+    
+}
+.form input{
+    font-size: 24px;
+    
+}
+.input::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+}
+.mainCountry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnCountry{
+   background-color: brown;
+   color: aliceblue;
+   width: 25px;
+   height: 25px;
+}
+.pCountry{
+   color: rgb(119, 255, 255);
+   font-size: 35px;
+   margin-left: 10px;
+}

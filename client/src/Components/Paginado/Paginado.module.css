@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 5px;
+}
+.paginatedButton{
+    width: 60px;
+    height: 40px;
+    border-radius: 70px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(190, 190, 187);       
+}
+.paginatedButton:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
