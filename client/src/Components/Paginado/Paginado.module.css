@@ -1,18 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap");
+
 .container{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    gap: 5px;
+    padding: 2.5em 1em;
+    gap: .4em;
 }
 .paginatedButton{
-    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 1em;
+    width: 2em;
     height: 40px;
-    border-radius: 70px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    background: rgb(190, 190, 187);       
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;          
+}
+.paginatedButton:focus {
+    background-color: rgb(238, 238, 238);
+    color: #191c32;
 }
 .paginatedButton:hover{
-    background-color: cornflowerblue;
-    color: white;
+    color: #191c32;
+    background-color: rgb(238, 238, 238);
+    transition: background-color, color 1s;
 }

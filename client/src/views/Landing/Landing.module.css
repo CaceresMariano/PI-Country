@@ -10,12 +10,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 .titulo{
-    margin-top: 239px;
-    margin-left: 23px;
-    font-size: 4.9rem;
+    margin-top: 55.5%;
+    margin-left: 10px;
+    font-size: 4.7rem;
     color: wheat;
     font-family: 'Berkshire Swash', cursive; 
-    transform: rotate(3deg);
+    transform: rotate(2deg);
     text-shadow: 1px 1px 1px #000000,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
@@ -38,9 +38,9 @@
 .boton {
     
     font-family: 'Berkshire Swash', cursive;
-    margin-top: 200px;
-    margin-left: 140px;
-    transform: rotate(-1.2deg);
+    margin-top: 17%;
+    margin-left: 24%;
+    transform: rotate(-1deg);
     position: relative;
     display: block;
     height: 77px;

@@ -1,41 +1,54 @@
-.container{
-    border: 1px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1em;  
-    align-items: center; 
-    margin-left: 15px;
-    margin-top: 35px;
-    
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap');
+
+.containerMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.pageTitle{
-        color: rgb(254, 232, 190);
-        font-family: 'Berkshire Swash', cursive;
-        font-style: italic;
-        display: flex;
-        justify-content: center;
-        font-size: 35px;
-        
+.divContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
 }
-.css {
-        min-width: 120px;
-        height: 45px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: center;
-        margin-left: 70px;
-        outline: none;
-        border-radius: 20px;
-        border: 2px solid #57cc99;
-        background: #338d66;        
-        font-size: 19px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  border: 1%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-right: 1%;
+  width: 25vw;
+  height: 13vh;  
+}
+
+.pageTitle {
+  color: rgb(254, 232, 190);
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.css { 
+  color: #ffffff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: center;
+  margin-left: 70px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #57cc99;
+  background: #338d66;
+  font-size: 19px;
 }
 .css:hover {
-        background: #fff;
-        color: #57cc99;
-        
-} 
+  background: #ffffff;
+  color: #57cc99;
+  
+}

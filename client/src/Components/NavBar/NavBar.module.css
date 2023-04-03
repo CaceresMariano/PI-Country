@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +11,7 @@
     text-decoration: none;
 }
 .nav{
-    background-color: rgb(59, 74, 75);
+    background-color: #535859;
     width: 100%;
     padding-top: 10px;
     padding: 10px;
@@ -14,15 +20,21 @@
 
 }
 .text{
-    color: aliceblue;
+    color: #ffffff;
     padding: 5px;
     text-decoration: none;
-    font-family: 'Berkshire Swash', cursive;
     letter-spacing: 0.09em;    
 }
+.text1{
+    color: #a8e9f5;
+    padding: 5px;
+    text-decoration: none;
+    letter-spacing: 0.09em; 
+}
 .text:hover{
-    background-color: rgb(78, 146, 183);
-    color: azure;
+    background-color: rgb(253, 253, 253);
+    color: #191c32;
+    transition: ease-in .4s;
 }
 .hed{
     background: rgb(51, 77, 72);

@@ -22,12 +22,12 @@ const CardsContainer = () => {
   };
 
   return (
-    <div>
+    <div className={style.containerMain}>
       <div className={style.pageTitle}><h2>Page {currentPage}</h2></div>
-      <div className={style.container}>
+      <div className={style.divContainer}>
         {currentCountries.map((country) => {
           return (
-            <div key={country.id}>
+            <div className={style.container} key={country.id}>
               <Card
                 id={country.id}
                 image={country.image}

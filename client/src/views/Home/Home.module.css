@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap");
+
+body {
+    font-family: "Ubuntu", sans-serif;
+  }
 .home{
-    
-    background-image: url("../Document/imagen1.jpg");     
-    background-size: 100% 100%;
-    min-height: 100vh; 
+    height: 100vh;
+    width: 100vw; 
+    background-color: #191c32;
        
 }
+
 .titulo{
     vertical-align: text-top;
     color: blanchedalmond;
-    font-size: 85px;
+    font-size: 60px;
     font-style: italic; 
     border-left: 3px solid rgba(0,0,0,0.25);
     border-top-left-radius: 10px solid black;

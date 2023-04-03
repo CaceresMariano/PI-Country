@@ -26,8 +26,8 @@ const NameFilter = () => {
                 type="text" placeholder=" Search Country" 
                 onChange={handlerChange} />
             <div className={style.flexBtn}>
-                <button className={style.btn} style={{"borderRadius":"10px"}} onClick={handlerFindName}>Find</button>
-                <button className={style.btn} style={{"borderRadius":"10px"}} onClick={handlerFindAll}>All Countries</button>
+                <button className={style.btn} style={{"borderRadius":"10px"}} onClick={handlerFindName}><h4>Find</h4></button>
+                <button className={style.btn} style={{"borderRadius":"10px"}} onClick={handlerFindAll}><h4>All Countries</h4></button>
             </div>
         </div>
     )

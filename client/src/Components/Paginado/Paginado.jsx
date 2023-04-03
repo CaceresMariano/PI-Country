@@ -19,8 +19,9 @@ const Paginado = ({ countries, paginado }) => {
                 key={number}
                 onClick={() => paginado(number)}
               >
-                {number}
+                <h3>{number}</h3>
               </button>
+              
             </div>
           ))}
       </nav>

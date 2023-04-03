@@ -1,100 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-   
-    
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
-.inicio{
-  
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url("../Document/paises.jpg");
-  background-size: 100% 100%;
-  min-height: 100vh;
-    
+  background-size: cover;
 }
-.btnHome{
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(246, 231, 203);
+  width: 80%;
+  height: 60%;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px 5px rgba(0, 0, 0, 0.15);
+  padding: 1em;
+}
+
+.btnHome {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
- 
+  padding: 1em 1em;
+}
+.btnInicio {
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: orange;
+  background-color: black;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
-
-.main{
-    
-    position: absolute;
-    background-color: rgb(246, 231, 203);
-    margin-top: 200px;
-    margin-left: 450px;
-    max-height: 700px;
-    max-width: 1200px;
-    border: 1px solid;    
-    border-radius: 10px;
-    box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.15);
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-      
-
+.img {
+  width: 60%;
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  animation-duration: 3s;
+  animation-name: slideimg;
+  animation-iteration-count: inherit;
 }
-img{
-    width: 100%;
-    
-}
-.img{
-    
-    width: 300px;
-	  height: 300px;
-    margin-left: 10px;
-	  object-fit: cover;
-    border: 1px solid black;
-    border-radius: 30px; 
-    animation-duration: 3s;
-    animation-name: slideimg;
-    animation-iteration-count: inherit;   
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&display=swap');
-
-.info{
-    vertical-align: text-top;
-    color: black;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    border-left: 3px solid rgba(0,0,0,0.25);
-    border-top-left-radius: 10px solid black;
-    padding: 0.5rem;
-    margin-left: 1rem;
-    align-items: flex-start; 
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: inherit;  
-        
+.info {
+  vertical-align: text-top;
+  color: black;
+  font-size: 30px;
+  border-left: 3px solid rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 10px solid black;
+  padding: 1rem;
+  margin-left: 1rem;
+  align-items: flex-start;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: inherit;
 }
 ul {
-    list-style: none;
-    
+  list-style: none;
 }
 
 @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 4%;
-      width: 100%;
-    }
+  from {
+    margin-left: 80%;
+    width: 100%;
   }
+
+  to {
+    width: 100%;
+  }
+}
 @keyframes slideimg {
   from {
-    margin-right: 50%;
-    width: 10%
+    padding: 0em;
+    width: 0%;
+    border-radius: 1em;
   }
-  
+
   to {
-    margin-right: 0%;
-    width: 39.5%;
+    padding: 1em;
+    width: 42.5%;
+    border-radius: 2em;
   }
 }

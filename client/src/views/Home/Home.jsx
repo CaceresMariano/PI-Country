@@ -13,9 +13,7 @@ const Home = () => {
         dispatch(getCountries())
         dispatch(getActivities())
     },[dispatch])
-
     
-
     return (
          
          <div className={style.home}>
